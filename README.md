@@ -114,13 +114,13 @@ These files provide ranked differential expression results, including log2 fold 
 
 At a high level, the analysis follows:
 
-FASTQ
-  → QC
-  → Trimming
-  → Alignment
-  → Counting
-  → Differential expression
-  → PCA / Volcano / Results
+  - FASTQ
+  - QC
+  - Trimming
+  - Alignment
+  - Counting
+  - Differential expression
+  - PCA / Volcano / Results
 
 This structure reflects a standard RNA-seq workflow, with a clear separation between preprocessing and statistical analysis.
 
