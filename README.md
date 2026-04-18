@@ -75,9 +75,14 @@ The downstream analysis produces a minimal but interpretable set of results.
 
 Samples separate by condition after variance-stabilizing transformation, indicating that the simulated treatment effect is captured in the expression structure.
 
+![PCA plot](results/figures/pca_plot.png)
+
+
 ### Volcano plot
 
 A subset of genes shows larger fold changes and stronger statistical significance, illustrating how differential expression results are typically summarized.
+
+![Volcano plot](results/figures/volcano_plot.png)
 
 ### Results tables
 
