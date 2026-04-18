@@ -1,0 +1,17 @@
+name: rnaseq-demo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - nextflow
+  - fastqc
+  - multiqc
+  - trimmomatic
+  - star
+  - subread
+  - r-base=4.5
+  - r-ggplot2
+  - r-dplyr
+  - r-tibble
+  - bioconductor-deseq2
