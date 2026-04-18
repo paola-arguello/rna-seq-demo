@@ -1,0 +1,5 @@
+reads: "data/raw/*_{R1,R2}.fastq.gz"
+genome: "data/reference/genome.fa.gz"
+annotation: "data/reference/annotation.gtf.gz"
+metadata: "data/metadata/sample_sheet.csv"
+outdir: "results"
